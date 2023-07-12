@@ -4,7 +4,7 @@ from get_words import get_random_word
 from calculate_score import cal_accuracy_score, cal_time_score
 
 
-def start_screen(stdscr):
+def start_screen(stdscr) -> None:
     """Displays initial screen of typing tester"""
 
     stdscr.clear()
